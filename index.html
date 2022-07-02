@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Explore 360</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Explore 360&#176;</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <!--                <span class="navbar-toggler-icon"></span>-->
+                <div class="navBaricon" style="display: block">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#touristZone">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#registrationModal">Registration</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--navbar end -->
+    <!--contact Modal start -->
+    <div class="modal" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Contact Us</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Type Massage</label>
+                            <textarea name="" id="" cols="" rows="4" class="form-control" placeholder="Type your Important Massage"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> Send </button>
+                        </div><!-- form-group// -->
+                        <div style="text-align: center">
+                            <h6>Or Visit Our Social Sites</h6>
+                            <a href="#"><i class="fa fa-facebook-square" style="font-size:36px;color:#4267b2"></i></a>
+                            <a href="#">
+                                <i class="fa fa-twitter-square" style="font-size:36px;color:#1da1f2"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square" style="font-size:36px;color:#0073b1"></i></a>
+                        </div><br>
+                        <div>
+                            <h6 style="color: darkgrey">or Call Us to <span><a href="">+987654321</a></span></h6>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact Modal end -->
+    <!--login Modal start -->
+    <div class="modal" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Login Here</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="inputBox">
+                            <input type="email" placeholder="User Email" required><br>
+                            <input class="focuseffect" type="password" placeholder="Password" required>
+                            <div style="text-align: right">
+                                <a href="#" style="text-align: right; margin-right: 130px;color: darkgrey">Forgot Password?</a><br><br>
+                            </div>
+                            <input type="submit" class="btn-primary" name="Login" value="Login" style="display: flex;justify-content: center;">
+                        </div><br>
+
+                        <div style="text-align: center">
+                            <h6>Or Sign in with</h6>
+                            <a href="#"><i class="fa fa-facebook-square" style="font-size:36px;color:#4267b2"></i></a>
+                            <a href="#">
+                                <i class="fa fa-twitter-square" style="font-size:36px;color:#1da1f2"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square" style="font-size:36px;color:#0073b1"></i></a>
+
+                        </div><br><br>
+
+                        <div>
+                            <h6 style="color: darkgrey">Don't have an Account? <span><a href="#" data-dismiss="modal" data-toggle="modal" data-target="#registrationModal">Register Here</a></span></h6>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--login Modal end -->
+
+    <!--regitration Modal start -->
+    <div class="modal " id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registrationModalLabel">Registration Here</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col form-group">
+                                <label>First name </label>
+                                <input type="text" class="form-control" placeholder="" required>
+                            </div> <!-- form-group end.// -->
+                            <div class="col form-group">
+                                <label>Last name</label>
+                                <input type="text" class="form-control" placeholder=" " required>
+                            </div> <!-- form-group end.// -->
+                        </div> <!-- form-row end.// -->
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" placeholder="" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="" required>
+                        </div>
+                        <!-- form-group end.// -->
+                        <div class="form-row">
+                            <br>
+                            <div class="form-group col-md-6">
+                                <div><label>Gender</label></div>
+                                <div>
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" value="option1" required>
+                                        <span class="form-check-label"> Male </span>
+                                    </label>
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" value="option2">
+                                        <span class="form-check-label"> Female</span>
+                                    </label>
+                                </div>
+                            </div> <!-- form-group end.// -->
+                            <div class="form-group col-md-6">
+                                <label>Country</label>
+                                <select id="inputState" class="form-control">
+                                    <option> Choose...</option>
+                                    <option selected="">Bangladesh</option>
+                                    <option>Russia</option>
+                                    <option>United States</option>
+                                    <option>India</option>
+                                    <option>Afganistan</option>
+                                </select>
+                            </div> <!-- form-group end.// -->
+                        </div> <!-- form-row.// -->
+                        <div class="form-group">
+                            <label>Create password</label>
+                            <input class="form-control" type="password" id="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm password</label>
+                            <input class="form-control" type="password" id="confirm_password" required>
+                        </div>
+                        <!-- form-group end.// -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> Register </button>
+                        </div> <!-- form-group// -->
+                        <div>
+                            <h6 style="color: darkgrey">Already have an Account? <span><a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Login Here</a></span></h6>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--regitration Modal end -->
+    <!--Carousel Wrapper-->
+    <div id="carousel-slider" class="carousel carousel-fade slide" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-slider" data-slide-to="1"></li>
+            <li data-target="#carousel-slider" data-slide-to="2"></li>
+            <li data-target="#carousel-slider" data-slide-to="3"></li>
+            <li data-target="#carousel-slider" data-slide-to="4"></li>
+            <li data-target="#carousel-slider" data-slide-to="5"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="division/chittagong/img/saint-cox.jpg" alt="Sain Martin">
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Sain Martin</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="view">
+                    <img class="d-block w-100" src="division/dhaka/img/ahsan_manjil.jpg" alt="Ahsan Manjil">
+                    <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Ahsan Manjil</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="division/barisal/img/guthia.jpg" alt="Guthiya Mosque">
+                    <div class="mask rgba-black-strong"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Guthiya Mosque</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="division/chittagong/img/sajek-kha.jpg" alt="Sajek Vally">
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Sajek Vally</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="division/sylhet/sylhet/bichanakandi1.jpg" alt="Bichana Kandi">
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Bichana Kandi Sylhet</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="division/chittagong/img/inani-cox.jpg" alt="Inani Beach">
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Inani Beach</h3>
+                </div>
+            </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <section>
+        <div id="touristZone" class="section" style="min-height: 630px">
+            <div class="heading">
+                <h2 class="py-3" style="background-color: rgb(34, 161, 255); letter-spacing: 5px;color:white;">TOURIST ZONE</h2>
+            </div>
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="filter">
+
+                        <ul id="filters">
+                            <li><a href="#" data-filter=".top" class="current">TOP ZONE</a></li>
+                            <li><a href="#" data-filter=".dhaka">DHAKA</a></li>
+                            <li><a href="#" data-filter=".barishal">BARISHAL</a></li>
+                            <li><a href="#" data-filter=".chittagong">CHITTAGONG</a></li>
+                            <li><a href="#" data-filter=".sylhet">SYLHET</a></li>
+                            <li><a href="#" data-filter=".khulna">KHULNA</a></li>
+                            <li><a href="#" data-filter=".rajshahi">RAJSHAHI</a></li>
+                            <li><a href="#" data-filter=".rangpur">RANGPUR</a></li>
+                            <li><a href="#" data-filter=".mymensingh">MAYMENSINGH</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="itemsContainer">
+                        <ul class="items">
+
+
+                            <!--                       top-->
+
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/dhaka/img/lalbag.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/dhaka/img/lalbag.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/dhaka/common.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/barisal/img/satla.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/barisal/img/satla.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/barisal/barishal.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/barisal/img/Kuakata_beach.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/barisal/img/Kuakata_beach.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/barisal/patuakhali.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/sylhet/sylhet/srimongol.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/sylhet/sylhet/srimongol.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/sylhet/maulobvibazar.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/khulna/img/place%201.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/khulna/img/place%201.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/khulna/khulna.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/nijhumdip.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/nijhumdip.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/noakhali.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/saint-cox.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/saint-cox.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/coxbazar.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li class="top col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/sajek-kha.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/sajek-kha.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/khagrachori.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+
+                            <!--                    dhaka-->
+
+
+                            <li class="dhaka col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/dhaka/img/dhaka.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/dhaka/img/dhaka.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/dhaka/common.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Dhaka District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="dhaka col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/dhaka/img/mohera.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/dhaka/img/mohera.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/dhaka/tangil.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside" data-toggle="modal" data-target="#dhk">
+                                        Tangil District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="dhaka col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/dhaka/img/safari%20park.png" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/dhaka/img/safari%20park.png" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/dhaka/gazipur.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside" data-toggle="modal" data-target="#dhk">
+                                        Gazipur District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="dhaka col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/dhaka/img/moinot-ghat-manikgonj.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/dhaka/img/moinot-ghat-manikgonj.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/dhaka/manikgonj.html" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside" data-toggle="modal" data-target="#dhk">
+                                        Dhaka District's
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <!--                        barishal-->
+
+                            <li class="barishal col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/barisal/img/barishal.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/barisal/img/barishal.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/barisal/barishal.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Barishal District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="barishal col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/barisal/img/kuriana.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/barisal/img/kuriana.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/barisal/pirojpur.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Pirojpur District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="barishal col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/barisal/img/Kuakata_beach.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/barisal/img/Kuakata_beach.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/barisal/patuakhali.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Patuakhali District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <!--                       chittagong-->
+
+
+                            <li class="chittagong col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/chittagong.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/chittagong.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/chittagong.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Chittagong District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="chittagong col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/inani-cox.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/inani-cox.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/coxbazar.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Cox's Bazar District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="chittagong col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/kaptai-rang.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/kaptai-rang.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/rangamati.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Rangamati District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="chittagong col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/nilgiri-band.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/nilgiri-band.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/bandarban.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Bandarban District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="chittagong col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/sajek-kha.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/sajek-kha.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/khagrachori.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Khagrachori District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="chittagong col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/chittagong/img/nijhumdip.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/chittagong/img/nijhumdip.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/chittagong/noakhali.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Noakhali District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+
+                            <!--                        sylhet-->
+
+
+                            <li class="sylhet col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/sylhet/sylhet/sylhet.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/sylhet/sylhet/sylhet.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/sylhet/sylhet.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Sylhet District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="sylhet col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/sylhet/sylhet/srimongol.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/sylhet/sylhet/srimongol.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/sylhet/maulobvibazar.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Maulobi Bazar District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="sylhet col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/sylhet/sylhet/tanguar%20haor.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/sylhet/sylhet/tanguar%20haor.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/sylhet/sunamgonj.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Sunamgonj District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+
+                            <!--                    khulna-->
+
+                            <li class="khulna col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/khulna/img/khulna.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/khulna/img/khulna.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/khulna/khulna.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Khulna District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="khulna col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/khulna/img/bagherhat1%20(2).jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/khulna/img/bagherhat1%20(2).jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/khulna/bagerhat.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Bagher Hat District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+                            <li class="khulna col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/khulna/img/kustia%201.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/khulna/img/kustia%201.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/khulna/kustia.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Kustia District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+                            <!--                   rajshahi-->
+
+
+                            <li class="rajshahi col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/rajshahi/img/paharpur-naoga.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/rajshahi/img/paharpur-naoga.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/rajshahi/rajshahi.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Rajshahi District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+                            <!--                        rangpur-->
+
+
+                            <li class="rangpur col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/rangpur/img/rangpur.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/rangpur/img/rangpur.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/rangpur/rangpur.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Rangpur District
+                                    </button>
+                                </div>
+
+                            </li>
+
+
+
+                            <!--                        maymensing-->
+
+                            <li class="mymensingh col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                                <div class="item">
+                                    <div>
+                                        <img src="division/maymensing/img/maymensingh.jpg" class="i-size">
+                                    </div>
+                                    <div class="icons">
+                                        <a href="division/maymensing/img/maymensingh.jpg" title="View image" class="openButton" data-fancybox data-caption="Dhaka the capital of Bangladesh">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="division/maymensing/maymensing.html" class="projectLink" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+
+
+
+                                <div class="btm">
+                                    <button type="button" class="btm-inside">
+                                        Mymensing District
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our package details start-->
+    <div id="packages" style="text-align: center">
+        <h2 class="py-3" style="background-color: rgb(34, 161, 255); letter-spacing: 5px;color:white; margin-bottom: 0;">OUR PACKAGES</h2>
+    </div>
+    <div class="packages pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3 style="text-align: center; color: white">Choose Your Package</h3>
+                    <div class="container">
+                        <div class="row" style="margin-bottom: 3px">
+                            <div id="areaFilter" class="col-6">
+                                <h6 style="color: white">Where You Want To Go?</h6>
+                                <input class="form-control" id="areaInput" type="text" placeholder="Search..">
+                            </div>
+                            <div class="col-6">
+                                <h6 style="color: white">Select Package Type</h6>
+                                <select id="TypeFilter" class="form-control">
+                                    <option value="all">Select All</option>
+                                    <option value="diamond">Diamond</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="silver">Silver</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="type-load-section" id="areaInput" style="max-height: 575px; overflow-y: scroll;overflow-x: hidden">
+                            <div id="areaList">
+                                <ul style="padding-left: 0px;">
+                                    <li>
+                                        <div class="filter-item" data-type="diamond">
+                                            <div class="card">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-4 p-0" style="display: flex; align-items: center">
+                                                            <img src="img/dha.jpg" class="w-100" height="150px">
+                                                        </div>
+                                                        <div class="col-md-8 p-0 pl-2">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title mb-0 pt-1">Dhaka Lalbag Fort</h4>
+                                                                <p>Area Cover: Lalbag Fort, Ahsan Monjil </p>
+                                                                <p>Date: 30-10-2019 to 01-11-2019</p>
+                                                                <p>Package Type: Diamond</p>
+                                                                <p>Price: 3,000 Taka</p>
+                                                                <p>No of Seat Available: 5</p>
+                                                                <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#bookModal" style="position: absolute; right: 5px; bottom: 5px;">Book Package</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="filter-item" data-type="gold">
+                                            <div class="card">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-4 p-0" style="display: flex; align-items: center">
+                                                            <img src="img/dha2.jpg" class="w-100" height="150px">
+                                                        </div>
+                                                        <div class="col-md-8 p-0 pl-2">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title mb-0 pt-1">Dhaka Ahsan Monjil</h4>
+                                                                <p>Area Cover: Lalbag Fort, Ahsan Monjil </p>
+                                                                <p>Date: 30-10-2019 to 01-11-2019</p>
+                                                                <p>Package Type: Gold</p>
+                                                                <p>Price: 3,000 Taka</p>
+                                                                <p>No of Seat Available: 5</p>
+                                                                <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#bookModal" style="position: absolute; right: 5px; bottom: 5px;">Book Package</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="filter-item" data-type="silver">
+                                            <div class="card">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-4 p-0" style="display: flex; align-items: center">
+                                                            <img src="img/syl2.jpg" class="w-100" height="150px">
+                                                        </div>
+                                                        <div class="col-md-8 p-0 pl-2">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title mb-0 pt-1">Sylhet Tea Garden</h4>
+                                                                <p>Area Cover: Tea Garden, Sylhet Stadium </p>
+                                                                <p>Date: 30-10-2019 to 01-11-2019</p>
+                                                                <p>Package Type: Silver</p>
+                                                                <p>Price: 3,000 Taka</p>
+                                                                <p>No of Seat Available: 5</p><a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#bookModal" style="position: absolute; right: 5px; bottom: 5px;">Book Package</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="filter-item" data-type="diamond">
+                                            <div class="card">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-4 p-0" style="display: flex; align-items: center">
+                                                            <img src="img/cox.jpg" class="w-100" height="150px">
+                                                        </div>
+                                                        <div class="col-md-8 p-0 pl-2">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title mb-0 pt-1">Chittagong Sea Beach</h4>
+                                                                <p>Area Cover: Chittagong All Sea Beach</p>
+                                                                <p>Date: 30-10-2019 to 01-11-2019</p>
+                                                                <p>Package Type: Diamond</p>
+                                                                <p>Price: 3,000 Taka</p>
+                                                                <p>No of Seat Available: 5</p><a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#bookModal" style="position: absolute; right: 5px; bottom: 5px;">Book Package</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="filter-item" data-type="gold">
+                                            <div class="card">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-4 p-0" style="display: flex; align-items: center">
+                                                            <img src="img/syl.jpg" class="w-100" height="150px">
+                                                        </div>
+                                                        <div class="col-md-8 p-0 pl-2">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title mb-0 pt-1">Sylhet Jaflong</h4>
+                                                                <p>Area Cover: Tea Garden, Sylhet Stadium, laflong </p>
+                                                                <p>Date: 30-10-2019 to 01-11-2019</p>
+                                                                <p>Package Type: Diamond</p>
+                                                                <p>Price: 3,000 Taka</p>
+                                                                <p>No of Seat Available: 5</p><a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#bookModal" style="position: absolute; right: 5px; bottom: 5px;">Book Package</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--book package modal -->
+                <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="bookModalLabel">Payment Method</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h4 style="text-align: center;">Choose Payment Option</h4>
+                                <ul class="nav nav-justified" id="paymentTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="bkash-tab" data-toggle="tab" href="#bkash" role="tab" aria-controls="bkash" aria-selected="true"><img src="img/bkash.png" alt="" height="50px" width="50px"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="rocket-tab" data-toggle="tab" href="#rocket" role="tab" aria-controls="rocket" aria-selected="false"><img src="img/Rocket.png" alt="" height="50px" width="50px"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="dbbl-tab" data-toggle="tab" href="#dbbl" role="tab" aria-controls="dbbl" aria-selected="false"><img src="img/dbbl.jpg" alt="" height="50px" width="60px"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="master-tab" data-toggle="tab" href="#master" role="tab" aria-controls="master" aria-selected="false"><img src="img/master.png" alt="" height="50px" width="60px"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="visa-tab" data-toggle="tab" href="#visa" role="tab" aria-controls="visa" aria-selected="false"><img src="img/visa.png" alt="" height="50px" width="60px"></a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content mt-2" id="paymentTabContent">
+                                    <div class="tab-pane fade show active" id="bkash" role="tabpanel" aria-labelledby="bkash-tab">
+                                        <form action="index.html">
+                                            <div class="form-group">
+                                                <label>Company Account Number:</label>
+                                                <input type="text" class="form-control" placeholder="+8801833557060" disabled>
+                                                <p>Complete your Payment to this Company AC number</p>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>No. of Seat Book:</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="bamaunt">Payment Amount:</label>
+                                                <input type="text" class="form-control" id="bamaunt">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="bnumber">Payment Bkash Number:</label>
+                                                <input type="text" class="form-control" id="bnumber">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="btdrx">Transaction ID:</label>
+                                                <input type="text" class="form-control" id="btdrx">
+                                                <p>We will send you a confirmation massage withis 30 minutes.</p>
+                                            </div>
+                                            <div class="form-group" style="text-align: center">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="rocket" role="tabpanel" aria-labelledby="rocket-tab">
+                                        <form action="index.html">
+                                            <div class="form-group">
+                                                <label>Company Account Number:</label>
+                                                <input type="text" class="form-control" placeholder="+8801833557060" disabled>
+                                                <p>Complete your Payment to this Company AC number</p>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>No. of Seat Book:</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="ramaunt">Payment Amount:</label>
+                                                <input type="text" class="form-control" id="ramaunt">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="rnumber">Payment Rocket Number:</label>
+                                                <input type="text" class="form-control" id="rnumber">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="rtdrx">Transaction ID:</label>
+                                                <input type="text" class="form-control" id="rtdrx">
+                                                <p>We will send you a confirmation massage withis 30 minutes.</p>
+                                            </div>
+                                            <div class="form-group" style="text-align: center">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="dbbl" role="tabpanel" aria-labelledby="dbbl-tab">
+                                        <form action="index.html">
+                                            <div class="form-group">
+                                                <label>Company Account Number:</label>
+                                                <input type="text" class="form-control" placeholder="542-5865-5226" disabled>
+                                                <p>Complete your Payment to this Company AC number</p>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>No. of Seat Book:</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="damaunt">Payment Amount:</label>
+                                                <input type="text" class="form-control" id="damaunt">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="dnumber">Payment Account Number:</label>
+                                                <input type="text" class="form-control" id="dnumber">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="dtdrx">Transaction ID:</label>
+                                                <input type="text" class="form-control" id="dtdrx">
+                                                <p>We will send you a confirmation massage withis 30 minutes.</p>
+                                            </div>
+                                            <div class="form-group" style="text-align: center">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="master" role="tabpanel" aria-labelledby="master-tab">
+                                        <form action="index.html">
+                                            <div class="form-group">
+                                                <label>Company Account Number:</label>
+                                                <input type="text" class="form-control" placeholder="542-5865-5226" disabled>
+                                                <p>Complete your Payment to this Company AC number</p>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>No. of Seat Book:</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mamaunt">Payment Amount:</label>
+                                                <input type="text" class="form-control" id="mamaunt">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mnumber">Payment Account Number:</label>
+                                                <input type="text" class="form-control" id="mnumber">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="mtdrx">Transaction ID:</label>
+                                                <input type="text" class="form-control" id="mtdrx">
+                                                <p>We will send you a confirmation massage withis 30 minutes.</p>
+                                            </div>
+                                            <div class="form-group" style="text-align: center">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="visa" role="tabpanel" aria-labelledby="visa-tab">
+                                        <form action="index.html">
+                                            <div class="form-group">
+                                                <label>Company Account Number:</label>
+                                                <input type="text" class="form-control" placeholder="542-5865-5226" disabled>
+                                                <p>Complete your Payment to this Company AC number</p>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>No. of Seat Book:</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="vamaunt">Payment Amount:</label>
+                                                <input type="text" class="form-control" id="vamaunt">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="vnumber">Payment Account Number:</label>
+                                                <input type="text" class="form-control" id="vnumber">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="vtdrx">Transaction ID:</label>
+                                                <input type="text" class="form-control" id="vtdrx">
+                                                <p>We will send you a confirmation massage withis 30 minutes.</p>
+                                            </div>
+                                            <div class="form-group" style="text-align: center">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--            package type details-->
+                <div class="col-lg-4">
+                    <div class="container" style="min-height: 700px">
+                        <h3 style="text-align: center; color: white">Package Type Details</h3><br>
+
+                        <ul class="nav nav-pills nav-justified" id="packageTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="diamond-tab" data-toggle="tab" href="#diamond" role="tab" aria-controls="diamond" aria-selected="true" style="color: white">Diamond</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="golden-tab" data-toggle="tab" href="#golden" role="tab" aria-controls="golden" aria-selected="false" style="color: white">Golden</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="silver-tab" data-toggle="tab" href="#silver" role="tab" aria-controls="silver" aria-selected="false" style="color: white">Silver</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-2" id="packageTabContent">
+                            <div class="tab-pane fade show active" id="diamond" role="tabpanel" aria-labelledby="diamond-tab">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="4" style="width: 37%; padding-top: 25%; text-align: center">Way</td>
+                                            <td>Bus: AC (Deluxe Sleeper)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Train: AC (Cabin 12:1)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Launch: AC (Single/Double)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air: Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>On way Food</td>
+                                            <td>Snacks(5+ item)</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3" style="text-align: center;padding-top: 20%">Per Day Food</td>
+                                            <td>Breakfast: Buffet(10+ item)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lunch: Buffet(10+ item) + 3 local items</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dinner: Buffet(12+ item) + 2 local items</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Others Facilities</td>
+                                            <td>One night BBQ for two days package. One Local Party attend for four day package</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="golden" role="tabpanel" aria-labelledby="golden-tab">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="4" style="width: 37%; padding-top: 25%; text-align: center">Way</td>
+                                            <td>Bus: AC (Deluxe)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Train: AC (Cabin 18:1)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Launch: AC (Double Share)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air: Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>On way Food</td>
+                                            <td>Snacks(5+ item)</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3" style="text-align: center;padding-top: 20%">Per Day Food</td>
+                                            <td>Breakfast: Buffet(5+ item)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lunch: Buffet(5+ item) + 2 local items</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dinner: Buffet(5+ item) + 1 local items</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Others Facilities</td>
+                                            <td>One night BBQ for two days package.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="silver" role="tabpanel" aria-labelledby="silver-tab">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="4" style="width: 37%; padding-top: 25%; text-align: center">Way</td>
+                                            <td>Bus:Non AC</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Train:Non AC (Cabin 18:1)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Launch: Non AC (Double Share)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Air: Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>On way Food</td>
+                                            <td>Snacks(5+ item)</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3" style="text-align: center;padding-top: 20%">Per Day Food</td>
+                                            <td>Breakfast: 5+ item</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lunch: 5+ item + 1 local items</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dinner: 5+ item + 1 local items</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Others Facilities</td>
+                                            <td>One night BBQ for two days package. One buffet Dinner 10+ Item for minimum three days package</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our package details End-->
+    <!--    shop start-->
+    <section>
+        <!-- Product -->
+        <div style="padding: 15px 0;background-color: rgb(34, 161, 255);">
+            <h2 class=" text-center text-light m-0">SHOP</h2>
+            <p class="text-center  text-light mb-0">Quality Product You Can Buy from us.</p>
+        </div>
+        <div class="container">
+
+
+            <div class="row py-5 px-2">
+
+                <div class="col-md-3 col-sm-6 py-4 px-2 col-6">
+                    <img src="img/bag1/orange.jpg" alt="" style="height: 250px ; width: 100%; ">
+
+                    <div class="detail  pl-3">
+                        <p> <strong>Travel Backback</strong><br>BDT: 3500 </p>
+
+                    </div>
+
+                    <a class="btn btn-info btn-block btn-sm" href="shop/bagpak.html" target="_blank">For More...</a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-6 py-4 px-2 col-6">
+                    <img src="img/shoe/shoe-2.PNG" alt="" style="height: 250px ; width: 100%;">
+
+                    <div class="detail  pl-3">
+                        <p> <strong>Hiking Shoe's</strong><br>BDT: 7500 </p>
+
+                    </div>
+
+                    <a class="btn btn-info btn-block btn-sm" href="shop/shoes.html" target="_blank">For More...</a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-6 py-4 px-2 col-6">
+                    <img src="img/hat/hat-2.PNG" alt="" style="height: 250px ; width: 100%;">
+
+                    <div class="detail  pl-3">
+                        <p> <strong>Travel Hat</strong><br>BDT: 1500 </p>
+
+                    </div>
+
+                    <a class="btn btn-info btn-block btn-sm" href="shop/hat.html" target="_blank">For More...</a>
+                </div>
+
+
+                <div class="col-md-3 col-sm-6 py-4 px-2 col-6">
+                    <img src="img/bottle/bottle1.PNG" alt="" style="height: 250px ; width: 100%;">
+
+                    <div class="detail pl-3">
+                        <p> <strong>Travel Bottle</strong><br>BDT: 550 </p>
+
+                    </div>
+
+                    <a class="btn btn-info btn-block btn-sm" href="shop/bottle.html" target="_blank">For More...</a>
+                </div>
+            </div>
+
+            <br>
+        </div>
+    </section>
+    <!--Shop end-->
+
+    <footer id="about" class="bg-dark">
+        <div class="text-light">
+            <div class="row">
+
+                <div class="col-md-4 p-3 text-center">
+
+                    <h4 class="text-center mb-2 text-uppercase">
+                        About Us
+                    </h4>
+                    <p class="text-justify pl-3">
+                       We created this project for the people who is love to travel among country or among the world. We had tried to inform all the tourist spots with our project to the people. We set our mind to help the people in tour. For why we create the packages for the tour lover people sothat the people can take the package for travel different areas.
+                       
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-4 p-3">
+                    <h4 class="text-center">CONTUCT US </h4>
+                    <div>            
+                        <div class="CompanyLink text-center">
+                            <a href="#"><i class="fa fa-facebook-official fa-2x text-light px-3"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x text-light px-3"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square fa-2x text-light px-3"></i></a>
+                        </div>
+                        <div class="developerLink text-center pt-4">
+                            <div class="CompanyLink">
+                            <a href="https://www.facebook.com/shahin541" target="_blank"><img src="img/shahin.jpg" alt="Shahin" height="40" width="40"><b>  Shahinur Rahman</b></a><br>
+                            <a href="https://www.facebook.com/mr.babu994" target="_blank" style="margin-left: -21px"><img src="img/miraj.JPG" alt="Miraj"height="40" width="40"><b>  Miraj Mahmud</b></a><br>
+                            <a href="https://www.facebook.com/jane.alam.mijan" target="_blank" style="margin-left: -54px"><img src="img/alam.JPG" alt="Alam"height="40" width="40"><b>  Jane Alam</b></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 p-3">
+                    <h4 class="text-center">LOG IN</h4>
+                    <form>
+                        <div id="footerLogin" style="text-align: center">
+                            <div class="inputBox">
+                                <input type="email" placeholder="User Email" required><br>
+                                <input class="focuseffect" type="password" placeholder="Password" required>
+                                <div>
+                                    <a href="#" style="text-align: right; margin-right: -120px;color: darkgrey">Forgot Password?</a>
+                                </div>
+                                <div style="clear: both"></div>
+                                <div class="form-group form-check" style="margin-bottom: 5px">
+                                    <label class="form-check-label remember">
+                                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                    </label>
+                                </div>
+                                <input type="submit" class="btn-primary" name="Login" value="Login" style="display: flex;justify-content: center;">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div style="min-height: 35px ; background-color: #1c2533">
+
+                <h6 class="text-center lead pt-2" style="font-size: 15px; color: rgba(173, 173, 173, 0.49)">
+                    &copy;2019, Explore 360&deg;.All right reserved.
+                </h6>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+
+    <script src="js/quiry.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+
+
+.font {
+    font-size: 30px;
+    color: #000000;
+    padding: 5px 15px 0px 5px;
+}
+
+.sp {
+    font-size: 16px;
+    font-weight: 640;
+
+}
+table {
+    font-family: arial, sans-serif;
+
+    width: 100%;
+}
+
+td, th {
+    border: .5px solid #ffffff;
+    text-align: left;
+    padding: 5px;
+
+}
+
+.tf{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EXPLORE || BOTTLES</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../uikits/css/uikit.min.css">
+    <style>
+        #bottlepaymentTab a:focus {
+            border: 1px solid blue;
+        }
+
+        .color {
+            background-color: rgb(34, 161, 255);
+
+        }
+
+    </style>
+</head>
+<body>
+<section id="gallery" class="" uk-lightbox>
+    <div class="text-center text-light color p-2">
+        <h2 class="text-light">Water Bottles</h2>
+
+    </div>
+    <div class="container pt-5 pb-5">
+
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <div class="p-3">
+                    <a href="../img/bottle/bottle.PNG">
+                        <img src="../img/bottle/bottle.PNG" alt="" class="img-fluid rounded" style="height: 250px; width: 250px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="p-3">
+                    <a href="../img/bottle/bottle1.PNG">
+                        <img src="../img/bottle/bottle1.PNG" alt="" class="img-fluid rounded" style="height: 250px; width: 250px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="p-3">
+                    <a href="../img/bottle/bottle2.PNG">
+                        <img src="../img/bottle/bottle2.PNG" alt="" class="img-fluid rounded" style="height: 250px; width: 250px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="p-3">
+                    <a href="../img/bottle/bottle3.PNG">
+                        <img src="../img/bottle/bottle3.PNG" alt="" class="img-fluid rounded" style="height: 250px; width: 250px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section>
+    <h3 class="text-center color p-2 text-light">Product Details</h3>
+    <div class="container py-5 px-3">
+
+        <div class="productDetail">
+            <div class="row">
+                <div class="col-md-5" style="background-color: #f4f4f4">
+                    <h4>
+                        About Product
+                    </h4>
+
+                    <p class="uk-text-justify p-2">A Hoodies is a style of men fabric hoodies, named after the T shape of the body and sleeves. It is normally associated with short sleeves, a round neckline, known as a crew neck, with no collar. Hoodies are generally made of a
+                        light, inexpensive fabric, and are easy to clean.</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <h4> Spacification</h4>
+                    <ul>
+                        <li>Brand: Fashon</li>
+                        <li>Product Type: Bagpack</li>
+                        <li> Color: Orange, Green, Blue, Pink</li>
+                        <li>Gender: All</li>
+                        <li>Country of Origin: Italy</li>
+                        <li>Main Material: Polystar</li>
+                        <li>IP Rating: Water Resistent</li>
+                        <li>Price: 7500 taka</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="payment text-center">
+            <button class="btn btn-success btn-large mb-4" data-toggle="modal" data-target="#bottleModal">Buy Now </button>
+            <!--book package modal -->
+            <div class="modal fade" id="bottleModal" tabindex="-1" role="dialog" aria-labelledby="bottleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="bottleModalLabel">Payment Method</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 style="text-align: center;">Choose Payment Option</h4>
+                            <ul class="nav nav-justified" id="bottlepaymentTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="bkash-tab" data-toggle="tab" href="#bkash" role="tab" aria-controls="bkash" aria-selected="true"><img src="../img/bkash.png" alt="" height="50px" width="50px"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="rocket-tab" data-toggle="tab" href="#rocket" role="tab" aria-controls="rocket" aria-selected="false"><img src="../img/Rocket.png" alt="" height="50px" width="50px"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="dbbl-tab" data-toggle="tab" href="#dbbl" role="tab" aria-controls="dbbl" aria-selected="false"><img src="../img/dbbl.jpg" alt="" height="50px" width="60px"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="master-tab" data-toggle="tab" href="#master" role="tab" aria-controls="master" aria-selected="false"><img src="../img/master.png" alt="" height="50px" width="60px"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="visa-tab" data-toggle="tab" href="#visa" role="tab" aria-controls="visa" aria-selected="false"><img src="../img/visa.png" alt="" height="50px" width="60px"></a>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-2" id="paymentTabContent">
+                                <div class="tab-pane fade show active" id="bkash" role="tabpanel" aria-labelledby="bkash-tab">
+                                    <form action="index.html">
+                                        <div class="form-group">
+                                            <label>Company Account Number:</label>
+                                            <input type="text" class="form-control" placeholder="+8801833557060" disabled>
+                                            <p>Complete your Payment to this Company AC number</p>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <select id="inputState" class="form-control">
+                                                <option>No. of Product</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bamaunt" placeholder="Payment Amount">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bnumber" placeholder="Payment Bkash Number">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="btdrx" placeholder="Transaction ID">
+                                            <p style="color:darkgreen">We will send you a confirmation massage withis 30 minutes.</p>
+                                        </div>
+                                        <div class="form-group" style="text-align: center">
+                                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="rocket" role="tabpanel" aria-labelledby="rocket-tab">
+                                    <form action="index.html">
+                                        <div class="form-group">
+                                            <label>Company Account Number:</label>
+                                            <input type="text" class="form-control" placeholder="+8801833557060" disabled>
+                                            <p>Complete your Payment to this Company AC number</p>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <select id="inputState" class="form-control">
+                                                <option>No. of Product</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bamaunt" placeholder="Payment Amount">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bnumber" placeholder="Payment Bkash Number">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="btdrx" placeholder="Transaction ID">
+                                            <p style="color:darkgreen">We will send you a confirmation massage withis 30 minutes.</p>
+                                        </div>
+                                        <div class="form-group" style="text-align: center">
+                                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="dbbl" role="tabpanel" aria-labelledby="dbbl-tab">
+                                    <form action="index.html">
+                                        <div class="form-group">
+                                            <label>Company Account Number:</label>
+                                            <input type="text" class="form-control" placeholder="542-5865-5226" disabled>
+                                            <p>Complete your Payment to this Company AC number</p>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <select id="inputState" class="form-control">
+                                                <option>No. of Product</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bamaunt" placeholder="Payment Amount">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bnumber" placeholder="Payment Bkash Number">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="btdrx" placeholder="Transaction ID">
+                                            <p style="color:darkgreen">We will send you a confirmation massage withis 30 minutes.</p>
+                                        </div>
+                                        <div class="form-group" style="text-align: center">
+                                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="master" role="tabpanel" aria-labelledby="master-tab">
+                                    <form action="index.html">
+                                        <div class="form-group">
+                                            <label>Company Account Number:</label>
+                                            <input type="text" class="form-control" placeholder="542-5865-5226" disabled>
+                                            <p>Complete your Payment to this Company AC number</p>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <select id="inputState" class="form-control">
+                                                <option>No. of Product</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bamaunt" placeholder="Payment Amount">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bnumber" placeholder="Payment Bkash Number">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="btdrx" placeholder="Transaction ID">
+                                            <p style="color:darkgreen">We will send you a confirmation massage withis 30 minutes.</p>
+                                        </div>
+                                        <div class="form-group" style="text-align: center">
+                                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="visa" role="tabpanel" aria-labelledby="visa-tab">
+                                    <form action="index.html">
+                                        <div class="form-group">
+                                            <label>Company Account Number:</label>
+                                            <input type="text" class="form-control" placeholder="542-5865-5226" disabled>
+                                            <p>Complete your Payment to this Company AC number</p>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <select id="inputState" class="form-control">
+                                                <option>No. of Product</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bamaunt" placeholder="Payment Amount">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="bnumber" placeholder="Payment Bkash Number">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="btdrx" placeholder="Transaction ID">
+                                            <p style="color:darkgreen">We will send you a confirmation massage withis 30 minutes.</p>
+                                        </div>
+                                        <div class="form-group" style="text-align: center">
+                                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../uikits/js/uikit.min.js"></script>
+</body>
+
+</html>
